@@ -2,7 +2,7 @@ try:
     import sys,os,pywhatkit,random,requests,datetime,time,wikipedia,speech_recognition as sr,pyttsx3,platform , pyautogui , keyboard
 except:
 
-    print("F.R.I.D.A.Y Error[x0129]\nGet To F.R.I.D.A.Y official site down below \nto know more about this error")
+    print("F.R.I.D.A.Y Error[x0129]\nGet To F.R.I.D.A.Y official site \nto know more about this error")
 
 import webbrowser
 from pyautogui import click, leftClick, rightClick, middleClick , displayMousePosition , doubleClick
@@ -11,7 +11,7 @@ from keyboard import write, press, press_and_release
 os.system("cls")
 os.system("title Friday.Main.Window")
 
-class System:
+class System: ### Nothing but Extra
     def __checkVersion__():
         pc_System_version = Brain.GetPC_Info.pc_System_Version
         if pc_System_version == "Windows 8.1":return "Windows 8.1 = True"
@@ -20,9 +20,9 @@ class System:
     def __SessionID__():
         return random.randint(100000 , 999999)
 
-__SessionID__ = System.__SessionID__()
+__SessionID__ = System.__SessionID__() ### Nothing but Extra
 
-print(f"Your Session Id :  {__SessionID__}")
+print(f"Your Session Id :  {__SessionID__}") # Prints Random number as Session id ### Nothing but Extra
 
 
 class Brain:
