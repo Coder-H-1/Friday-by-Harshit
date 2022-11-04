@@ -41,14 +41,10 @@ class Brain:
         MSConfig            = "C:\\Windows\\System32\\msconfig.exe"
         MSINFO              = "C:\\Windows\\System32\\msinfo32.exe"
         Chrome_exe          = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
-        VB_exe              = "C:\\Program Files\\Oracle\\VirtualBox\\VirtualBox.exe"
-        GTA_IV              = "D:\\Games\\Grand Theft Auto IV\\GTAIV.exe"
-        GTA_SA              = "D:\\Games\\GTA_SA\\GTA San Andreas\\gta_sa.exe"
-        GTA_III             = "D:\\Games\\GTA_3\\gta3.exe"
         
         ### Friday Artificial Intelligence ###
-        Friday              = "C:\\Users\\H\\Desktop\\Folder\\A.I\\Python\\Main.py"
-        base_path_location  = "C:\\Users\\H\\Desktop\\Folder\\A.I\\Python"
+        Friday              = "C:\\Users\\H\\Desktop\\Folder\\A.I\\Python\\Main.py"  ### Put you Friday path here
+        base_path_location  = "C:\\Users\\H\\Desktop\\Folder\\A.I\\Python"  ### Put your Friday folder here
         ### End ###
 
     class Chatbot:
