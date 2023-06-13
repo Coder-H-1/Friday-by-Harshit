@@ -66,7 +66,7 @@ class Brain:
             hellohi_reply = [
                 'Oh hello Sir',
                 'Hello Sir',
-               f'Hello {os. getlogin()}',
+               f'Hello {os.getlogin()}',
                 'Oh hello sir, How are you Doing',
                 'Hello Sir, How are you?'
                 ]
